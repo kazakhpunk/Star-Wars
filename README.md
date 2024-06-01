@@ -19,6 +19,18 @@ The project consists of Frontend and Backend:
 
 ## Installation
 
+- **Clone the Repository**:
+
+```console
+git clone git@github.com:kazakhpunk/Star-Wars.git
+```
+
+### OR
+
+```console
+git clone https://github.com/kazakhpunk/Star-Wars.git
+```
+
 - **Backend**:
 ```console
 npm install

@@ -1,8 +1,39 @@
-# React + Vite
+# Star Wars Catalogue 
+Made by Nursultan Sagyntay.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcoome to the Star Wars Catalogue, a web application that provides information on planets, characters and starships from Star Wars movies. 
 
-Currently, two official plugins are available:
+The project consists of Frontend and Backend:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Backend**: Made on Node.js and Express.js
+- **Frontend**: Made on React and Material UI
+
+## Main Features
+
+- **Planets**: Users can see details about Planets, including climate, terrain, and population. 
+- **Characters**: Users can see details about Characters, including height, mass, and more. 
+- **Starships**: Users can see details about Starships, including model name, manufacturer, and more. 
+- **Search**: Users can search for Planets, Characters and Starships, based Title.
+- **Navigation**: Users can navigate between Pages using Navigation Bar on top of the page.
+- **API**: Data is used from Star Wars API (https://swapi.dev/api/).
+
+## Installation
+
+- **Backend**:
+```console
+npm install
+node server.js
+```
+
+- **Frontend**:
+```console
+npm install
+npm run dev
+```
+## Common Issue: Port already in use
+
+- **Solution**:
+```console
+lsof -i :<number_of_port>
+kill -9 <PID>
+```

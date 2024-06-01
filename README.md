@@ -25,7 +25,7 @@ The project consists of Frontend and Backend:
 git clone git@github.com:kazakhpunk/Star-Wars.git
 ```
 
->**OR**
+>OR
 
 ```console
 git clone https://github.com/kazakhpunk/Star-Wars.git
